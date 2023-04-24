@@ -1,0 +1,68 @@
+/* formatting for body of layout */
+body {
+    background-color: tan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* common style we will use for most elements of layout.html */
+.common {
+    background-color: tan;
+    border: 1px solid black;
+    position: absolute;
+}
+/* this is the formatting so that the boxes don't sit on top of each other. they must be individual for each div */
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+}
+.left {
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 47px;
+    z-index: 1;
+    padding-top: 45 px;
+}
+.main {
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 39px;
+}
+.right {
+    top: 114px;
+    width: 100px;
+    right: 5px;
+    bottom: 39px;
+    font-size: 8px;
+}
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 8px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.subheader {
+    float: right;
+}
+
+.centername {
+    text-align: center;
+    top: 20px;
+}
+
+/* styling for the title */
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}

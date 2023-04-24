@@ -1,0 +1,58 @@
+/* This is css code to style the main body of text */
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(55, 54, 54);
+    background-color: tan;
+} 
+/* This code allows us to format the paragraphs in the other code */
+p {
+    font-size: 17px;
+    font-style:italic;
+}
+
+/* Here we set everything in the li brackets to be normal so we can utilize the other css to format just the title */
+li {font-weight: normal;}
+
+/* links to other pages are formatted differently here */
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+/* changes the link to other pages when you hover over it */
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    /* font-size: 18px; */
+}
+/* changes color to blue when you have clicked on the link */
+a:visited {
+    color: darkgreen;
+}
+/* good way to format the headings */
+.resumelistheading {
+    font-weight: bold;
+    font-style: normal;
+}
+/* for things that need to be underlined */
+.underline{text-decoration: underline;}
+
+/* add background pic to the home page */
+.homepg{
+    background-image: url('../images/Background.jpeg');
+    background-size:cover
+}
+/* boxes just to show the changes in formatting when you layer the css on top of each other (shown in about me page) */
+.box1 {
+    border-width: 3px;
+    border-style: solid;
+    border-color: darkgreen;
+}
+
+.box2 {
+    padding: 5px;
+}
+
+.box3 {
+    margin: 20px;
+}
